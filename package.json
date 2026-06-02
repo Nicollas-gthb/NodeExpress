@@ -1,0 +1,22 @@
+{
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "description": "NodeJS + ExpressJS",
+  "license": "ISC",
+  "author": "Nickplays",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.22.3",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
