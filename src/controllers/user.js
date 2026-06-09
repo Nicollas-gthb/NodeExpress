@@ -23,6 +23,7 @@ const list = (req, res) => {
         })
 }
 
+
 const hardDelete = (req, res) => {
     const { id } = req.params
 
@@ -33,6 +34,7 @@ const hardDelete = (req, res) => {
             res.sendStatus(204)
         })
 }
+
 
 const updateAll = (req, res) => {
 
